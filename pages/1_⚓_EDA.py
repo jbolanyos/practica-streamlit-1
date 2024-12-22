@@ -10,7 +10,7 @@ df = load_data()
 
 st.header("ANALISIS EXPLORATORIO")
 
-col1, col2, col3 = st.columns(3)
-with col1:
-    st.metric(label="Número de filas:", value=df.shape[0], border=True)
-    
+with st.container():
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.metric(label="Número de filas:", value=df.shape[0], border=True)
