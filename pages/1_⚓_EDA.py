@@ -8,6 +8,8 @@ def load_data():
 
 df = load_data()
 
+st.image("utils/1241.jpg")
+
 #Cargamos los datos del archivo csv:
 #url='https://drive.google.com/file/d/1TS8BpC3CBTlEHlCSlHfIDlbgSE4jDL5q/view?usp=sharing'
 #url='https://drive.google.com/uc?id=' + url.split('/')[-2]
