@@ -3,7 +3,7 @@ import os
 
 st.set_page_config(layout="wide")
 
-st.image("utils/1241.jpg", width=1)
+st.image("utils/1241.jpg")
 
 st.title("Proyecto Final")
 
