@@ -3,7 +3,12 @@ import os
 
 st.set_page_config(layout="wide")
 
+st.image("utils/1241.jpg")
+
 st.title("Proyecto Final")
+
+
+
 
 col1, col2 = st.columns([2,2])
 
